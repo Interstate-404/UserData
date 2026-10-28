@@ -183,6 +183,36 @@ PSE JerMod ISR/PSE PSE/ISR
 
 
 # United States
+# Florida
+# Jacksonville
+# Amtrak
+FL AZ +SKIP_Pal FL/GA
+FL FL GA/FL Pal
+FL SM Pal FL/GA
+
+# Skyway
+FL NBankLn JacRTC RosaPar
+FL SBankLn RosaPar KinAve
+
+
+# Tampa Bay
+# Amtrak
+FL FL +DIV_VitB +DIV_VitA
+
+# Landside Airport Rail Systems
+FL SkyCon MainTer RenCarCen
+
+# Airside Airport Rail Systems
+FL TPAShu MainTer AirA
+FL TPAShuAiC MainTer AirC
+FL TPAShuAiE MainTer AirE
+FL TPAShuAiF MainTer AirF
+
+# TECO Line Streetcar
+FL TECO DowTam CenPark
+
+
+
 # Virginia
 # Richmond
 # Amtrak
