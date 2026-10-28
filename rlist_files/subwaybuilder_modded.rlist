@@ -158,6 +158,17 @@ ISR NahBee +SKIP_HadWest KirMalYoav
 ISR NahMod +SKIP_HadWest ModCem
 ISR HerJer Her ISR/PSE
 ISR HerJerKfi PSE/ISR ISR/PSE
+ISR BinAsh HadWest Ash
+ISR NetBei Net BetShe
+ISR HerAsh Her Ash
+ISR JerModKfi PSE/ISR ISR/PSE
+ISR JerMod ModCen PSE/ISR
+ISR LodRis Lod RisZionHaR
+
+# Light Rail
+ISR R1 PetTikCBS HaKom
+ISR R2 KirAry HaKom
+ISR R3 KirAry Eli
 
 
 
@@ -166,6 +177,7 @@ ISR HerJerKfi PSE/ISR ISR/PSE
 # Tel Aviv
 # Israel Railways
 PSE HerJer ISR/PSE PSE/ISR
+PSE JerMod ISR/PSE PSE/ISR
 
 
 
