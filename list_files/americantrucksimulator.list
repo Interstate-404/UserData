@@ -4,23 +4,53 @@
 
 
 
+# Unitedstates
+# Multiarea
+# Interstate Highways
+CA I-5 3 WA I-5 258
+CA I-8 2A AZ I-8 178
+CA I-10 1 LA I-10 267
+CA I-15 6B MT I-15 363
+TX I-20 I-10 LA I-20 171
+NM I-25 I-10 WY I-25 300
+MO I-29 3(35) SD I-29 207
+TX I-30 I-20 AR I-30 143
+TX I-35Gai 467 IA I-35 194
+CA I-40 I-15 AR I-40 280
+TX I-44 1 MO I-44 I-70
+LA I-49Bel 210 TX I-49 US59/71
+AR I-49 20 MO I-49 I-435
+AR I-55 4 IL I-55 US41
+MO I-57 1 IL I-57 358
+MO I-64 40B IL I-64 130
+UT I-70 0 IL I-70 147
+MO I-72 US61 IL I-72 182
+IA I-74 I-80 IL I-74 184
+CO I-76 1A NE I-76 3
+CA I-80 1A IL I-80 161
+WA I-82 I-90 OR I-82 11
+OR I-84 I-5 UT I-84 120
+WA I-90 WA519 SD I-90 399
+NE I-129 End IA I-129 1
+OR I-205 21B WA I-205 27
+KS I-635 1A MO I-635 12
+KS I-670 I-70 MO I-670 2N
+NE I-680 I-80 IA I-680 3
+
+
 # Arizona
-# Interstates
-AZ I-8 CA/AZ 178
-AZ I-10 CA/AZ AZ/NM
-AZ I-15 NV/AZ AZ/UT
+# Interstate Highways
 AZ I-17 198 341
 AZ I-19 I-19BL 101
-AZ I-40 CA/AZ AZ/NM
 
-  # Business Interstates
+# Business Interstate Highways
 AZ I-10BLSan I-10_W I-10_E
 AZ I-40BLSel I-40_W ChiSt_W
 AZ I-40BLFla AZ89A I-40_E
 AZ I-40BLWin FleSt I-40_E
 AZ I-40BLHol 8thAve AirRd
 
-# US Highways
+# Numbered Highways
 AZ US60 US93 AZ303
 AZ US60 153A(10) AZ/NM
 AZ US64 US160 AZ/NM
@@ -30,19 +60,19 @@ AZ AZ87 AZ99_S I-40BL_E
 AZ US89 I-40BL/180 AZ/UT
 AZ US93 US60 AZ/NV
 AZ US95 16thSt_W AZ/CA
-AZ AZ96 BruMineRd AZ97
-AZ AZ97 US93 AZ96
-AZ AZ99 IchDr FleSt
 AZ US160 US89 AZ/NM
 AZ US163 US160 AZ/UT
 AZ US180 GraCynNP AZ77_S
 AZ US180 US191/61 US191_S
 AZ US191 US70_E AZ/UT
 
-  # Special US Highways
+# Select Named Freeways
+AZ PetForRd PinRd I-40
+
+# Auxiliary Numbered Highways
 AZ US89AltFre AZ389 AZ/UT
 
-# State Routes
+# State Highways
 AZ AZ51 I-10 2
 AZ AZ61 US180_W US191_N
 AZ AZ64 US180_E US89
@@ -53,27 +83,29 @@ AZ AZ89A I-17(337) I-40BL
 AZ AZ90 AZ92 I-10
 AZ AZ92 AZ90 BufSolTr
 AZ AZ95 I-10BL/95 I-40
+AZ AZ96 BruMineRd AZ97
+AZ AZ97 US93 AZ96
 AZ AZ98 US89 US160
+AZ AZ99 IchDr FleSt
 AZ AZ260 I-17 WooLakeRd
 AZ AZ303 104 I-17
 AZ AZ389 UT/AZ US89Alt
 
 
+# Historic Highways
+AZ US66HisKin ToUS93 I-40BL_SelW
+AZ US66HisFla AZ89A US180_E
+AZ US66HisHol 8thAve AirRd
+
+
 # Arkansas
-# Interstates
-AR I-30 TX/AR 143
-AR I-40 OK/AR 280
-AR I-49 20 AR/MO
-AR I-49Tex LA/AR AR/TX
-AR I-55 4 AR/MO
+# Interstate Highways
 AR I-57 I-40 US412_E
 AR I-530 1 46
 AR I-540 1 OK/AR
 AR I-555 1 49
 
-  # Business Interstates
-
-# US Highways
+# Numbered Highways
 AR US49 I-555(45) I-555(42)
 AR US59 TX/AR US71/270
 AR US61 I-55(4) I-55(23)
@@ -111,7 +143,7 @@ AR US412 OK/AR AR/MO
 AR US425 LA/AR US82_E
 AR US425 US65/81 I-530
 
-  # Special US Highways
+# Auxiliary Numbered Highways
 AR US63BusHar US63 US62/412
 AR US65BusHar AR7_S US65_N
 AR US65BusPin US65_S US65_N
@@ -124,7 +156,7 @@ AR US82BusElD US82_W US167Bus_N
 AR US167BusElD US82Bus_W MainSt
 AR US270BusHot US270_W US70Bus_E
 
-# State Routes
+# State Highways
 AR AR7 US63/167 US167/167Bus
 AR AR7 US70Bus/270Bus FouSt
 AR AR7 US62/65_S US62/65_N
@@ -158,22 +190,17 @@ AR AR463Pin I-530 HarAve
 
 
 # California
-# Interstates
-CA I-5 3 CA/OR
+# Interstate Highways
 CA I-5TrkNew I-5_S I-5_N
-CA I-8 2A CA/AZ
-CA I-10 1 CA/AZ
-CA I-15 6B CA/NV
-CA I-40 I-15 CA/AZ
-CA I-80 1A CA/NV
 CA I-110 1A 9
 CA I-205 I-580 I-5
+CA I-305 1A 6
 CA I-405 I-5(94A) 63C
 CA I-580 1A I-5
 CA I-710 1 18A
 CA I-880 I-280 31A # I-880 only touches I-580 at I-80 (also its irl northern terminus), but it ends in-game at I-580 in-game wayyy south of that interchange, so I-238 is used instead.
 
-# US Highways
+# Numbered Highways
 CA US6 US395 CA/NV
 CA US50 1A CA/NV
 CA US95 AZ/CA I-40(133)
@@ -183,7 +210,7 @@ CA US199 US101 CA/OR
 CA US395 CA58 CA/NV # US 395 only touches CA 14 at Inyokern, but it starts in-game at CA 14/58 wayyyyy south of that intersection, so CA 58 is used instead.
 CA US395Sus NV/CA CA/OR
 
-# State Routes
+# State Highways
 CA CA1 1A(10) 72(101)
 CA CA1 78(101) 132(101)
 CA CA1 191B(101) 445B(101)
@@ -216,7 +243,7 @@ CA CA120 1A CA99(242)
 CA CA120Lee US395_N US6
 CA CA121 CA37 TraSt
 CA CA126 1A 40
-CA CA132 CA99 MitRd # someone get the CA99_N waypoint for CA132 PLEASE.
+CA CA132 CA99 MitRd
 CA CA135 US101(173) BetRd
 CA CA139 CA299_W CA/OR
 CA CA145 I-5/33 ShawAve
@@ -230,19 +257,20 @@ CA CA273 I-5(667) CA299_E
 CA CA299 US101 US395_N
 CA CA905 1A 8
 
+# Historic Highways
+CA US66HisBar HinRd I-40(2)
+CA US66HisBar I-40(50) NatTrlHwy_E
+
+
 
 # Colorado
-# Interstates
-CO I-25 NM/CO CO/WY
-CO I-70 UT/CO CO/KS
-CO I-76 1A CO/NE
-
-  # Business Interstates
+# Interstate Highways
+# Business Interstate Highways
 CO I-70BLGra I-70_W US50_E
 CO I-70BLGra I-70_W US50_E
 CO I-70BLBur I-70_W US385_N
 
-# US Highways
+# Numbered Highways
 CO US6 UT/CO I-70(11)
 CO US6 CO340 US50_E
 CO US6 I-70(44) I-70(62)
@@ -284,7 +312,7 @@ CO US400 US50/385 CO/KS
 CO US491 NM/CO CO/UT
 CO US550 NM/CO US50
 
-# State Routes
+# State Highways
 CO CO1 US287 CR58_E
 CO CO13 CO317 CO/WY
 CO CO14 McMRanRd I-25
@@ -304,19 +332,16 @@ CO CO340 US6/50 JurAve
 
 
 # Idaho
-# Interstates
-ID I-15 UT/ID ID/MT
-ID I-84 OR/ID ID/UT
+# Interstate Highways
 ID I-86 1 63
-ID I-90 WA/ID ID/MT
 
-  # Business Interstates
+# Business Interstate Highways
 ID I-15BLPoc I-15_S US30_W
 ID I-15BLIda SunRd I-15_N
 ID I-84BLCal ID55 I-84_E
 ID I-84BLMou ID51 I-84_E
 
-# US Highways
+# Numbered Highways
 ID US2 CedSt ID/MT
 ID US12 WA/ID ID/MT
 ID US20 OR/ID US95_N
@@ -338,12 +363,12 @@ ID US91 I-15(36) US30_W
 ID US93 NV/ID ID/MT
 ID US95 OR/ID US2_E
 
-  # Special US Highways
+# Auxiliary Numbered Highways
 ID US20BusIda US20_W US26_W
 ID US20BusIda US26_E US20_E
 ID US93BusTwi US93_S US93_N
 
-# State Routes
+# State Highways
 ID ID13 US95 US12
 ID ID21 I-84 WrmSprAve
 ID ID21 FR630 ID75
@@ -357,17 +382,30 @@ ID ID78 ID51_S ID51_N
 ID ID128 SpiHwy US12
 
 
+# Illinois
+# Interstate Highways
+IL I-39 I-55 15(90)
+IL I-90 15 59A(94)
+IL I-94 41A 63
+IL I-172 0 19
+IL I-180 I-80 14
+IL I-280 18 I-80
+IL I-474 6 9
+
+
+# Iowa
+# Interstate Highways
+IA I-235 I-80(123) I-80(137)
+IA I-380 0 71
+
+
 # Kansas
-# Interstates
-KS I-35 OK/KS KS/MO
-KS I-70 CO/KS KS/MO
+# Interstate Highways
 KS I-135 I-35 95
 KS I-335 127 177
 KS I-470 1A 183(KT)
-KS I-635 1A KS/MO
-KS I-670 I-70 KS/MO
 
-# US Highways
+# Numbered Highways
 KS US24 CO/KS I-70(45)
 KS US24 KS25 US83
 KS US24 I-70(224KT) KS/MO
@@ -405,7 +443,7 @@ KS US400 CO/KS US50_E
 KS US400 US283_N CorRd
 KS US400 US54_W KS66
 
-  # Special US Highways
+# Auxiliary Numbered Highways
 KS US50BusGar US50_W MarySt
 KS US69AltBax OK/KS US69_N
 KS US69BusPit US69_S US69_N
@@ -413,7 +451,7 @@ KS US81BusMcP US81_S US56_W
 KS US83BusGar MarySt US83_N
 KS US183BypHay US183 240thAve
 
-# State Routes
+# State Highways
 KS KS3 HacRd US54_W
 KS KS4 I-135(78) I-135(82)
 KS KS4 I-70(353) I-70(366)
@@ -443,29 +481,36 @@ KS KS156 KS111 I-70
 KS KS191 CRAA US281
 KS KS267 KanLim I-70
 
+# Historic Highways
+KS US66His OK/KS US69Alt_N
+KS US66His US69Alt/400 KS26/66
+
+
+# Louisiana
+# Interstate Highways
+LA I-12 1A 85
+LA I-49 1A 206
+LA I-55 I-10 29
+LA I-210 1B 12
+LA I-220 1B 7
+LA I-910 US90Bus_W I-10
+
 
 # Missouri
-# Interstates
-MO I-29 3(35) MO/IA
-MO I-35 KS/MO MO/IA
-MO I-44 OK/MO I-70
-MO I-49 AR/MO I-435
-MO I-55 AR/MO MO/IL
-MO I-70 KS/MO MO/IL
-MO I-72 US61 MO/IL
+# Interstate Highways
 MO I-155 1 4
-MO I-229 4A 6B
-MO I-255 1A 2
-MO I-635 KS/MO 12
-MO I-670 KS/MO 2N
+MO I-229 4A 6A
+MO I-255 1A 3
+MO I-435 31 14(29)
+MO I-470 I-435 7
 
-  # Business Interstates
+# Business Interstate Highways
 MO I-44BLJop I-44_W I-44_E
 MO I-44BLRol I-44_W I-44_E
 MO I-49BLNev I-49_S US54_W
 MO I-55BLCap SouExpy MO34/74
 
-# US Highways
+# Numbered Highways
 MO US24 KS/MO I-70(8)
 MO US24 US36_W MO/IL
 MO US36 KS/MO MO/IL
@@ -499,7 +544,7 @@ MO US169 KS/MO I-70(2C)
 MO US169 US136_W US136_E
 MO US412 AR/MO I-155(4)
 
-  # Special US Highways
+# Auxiliary Numbered Highways
 MO US36BusMac US36_W KelAve
 MO US60BusCab US63_N US60_E
 MO US60BusPop US60_W US60_E
@@ -511,7 +556,7 @@ MO US67BusDes US67_S MO32_W
 MO US67BusPop MO53 US67_N
 MO US71BusMar US71_S MO46
 
-# State Routes
+# State Highways
 MO MO6 US63Bus_N US63Bus_S
 MO MO6 US63/11_N US63/11_S
 MO MO7 US65_S US65
@@ -541,15 +586,24 @@ MO MO740 I-70 Bro
 MO MO744 GenAviAve MOsOO
 MO MO759 LowLakeRd I-229
 
+# Historic Highways
+MO US66His MO66_W I-44BL/43
+MO US66His I-44BL_N MO125_N
+MO US66His I-44(172) I-44(176)
+MO US66His I-44BLRol_W MO72
+MO US66His US63_S US63_N
+MO US66His I-44(261) I-44(277A)
+MO US66HisEJo US66His_W I-44/49BL
+MO US66HisNSp US160_W US66His_E
+
 
 # Montana
-# Interstates
-MT I-15 ID/MT 363
-MT I-90 ID/MT MT/WY
+# Interstate Highways
 MT I-94 0 215
 MT I-115 I-15/90 ClaSt
+MT I-315 I-15 6thSt
 
-  # Business Interstates
+# Business Interstate Highways
 MT I-15BLBut I-15_S ParkSt_W
 MT I-15BLCon SR218 I-15_N
 MT I-15BLGre I-15_S US89_S
@@ -564,7 +618,7 @@ MT I-90BLMis I-90_W I-90_E
 MT I-94BLGle I-94_W I-94_E
 MT I-94BLMil I-94_W MT59_S
 
-# US Highways
+# Numbered Highways
 MT US2 ID/MT LanRd
 MT US12 ID/MT US93_N
 MT US12 I-90BL_W I-90(174)
@@ -588,11 +642,11 @@ MT US287 YelNP BeaCreRd_S
 MT US287 SR518 I-15(228)
 MT US310 WY/MT I-90BL
 
-  # Special US Highways
+# Auxiliary Numbered Highways
 MT US87BypGre US87_S US87_N
 MT US93AltKal US93_S SR503_S
 
-# State Routes
+# State Highways
 MT MT3 I-90 I-90BL
 MT MT3 US87/191 I-15
 MT MT16 I-94BL US2_E
@@ -611,7 +665,7 @@ MT MT200 I-15(290) MT200S
 MT MT200 MT16/23 MT16_N
 MT MT200S MT200 I-94BL
 
-  # Secondary State Routes
+# Secondary State Highways
 MT SR205 RedWingDr I-90(306)
 MT SR232 US2 6thSt
 MT SR426 CleLn US191
@@ -619,14 +673,10 @@ MT SR474 DusLn I-90
 
 
 # Nebraska
-# Interstates
-NE I-76 CO/NE 3
-NE I-80 WY/NE NE/IA
-NE I-129 End NE/IA
+# Interstate Highways
 NE I-480 I-80 2B
-NE I-680 I-80 NE/IA
 
-# US Highways
+# Numbered Highways
 NE US6 US34_W US136
 NE US6 US281_S US34/281
 NE US6 L55K I-80(409)
@@ -655,7 +705,11 @@ NE US275 36thSt NE/IA
 NE US281 KS/NE NE/SD
 NE US385 US30_W NE/SD
 
-# State Routes
+# Select National Park Highways
+NE OldOreTrl NE92 FiveRocRd
+NE SumRd OldOreTrl End
+
+# State Highways
 NE NE2 US20_E US20_W
 NE NE2 US385_N US34/281
 NE NE15 US20_W NE59
@@ -678,20 +732,21 @@ NE NE92 US81_S US81_N
 NE NE92 US275_W I-80
 NE NE92 36thSt NE/IA
 
-  # State Link Routes
+# State Links and Spurs
 NE L17J I-80 US30
 NE L55K US6 End
 NE L62A US26 US385
 
+# Select Tourist Routes
+NE LinHwyLin US83 NewAcc
+
 
 # Nevada
-# Interstates
+# Interstate Highways
 NV I-11 AZ/NV 96
-NV I-15 CA/NV NV/AZ
-NV I-80 CA/NV NV/UT
 NV I-580 US50/395 36
 
-# US Highways
+# Numbered Highways
 NV US6 CA/NV NV/UT
 NV US50 CA/NV NV/UT
 NV US93 AZ/NV NV/ID
@@ -699,11 +754,11 @@ NV US95 14(11) US6_W
 NV US95 I-80(83) NV/OR
 NV US395 CA/NV NV/CA
 
-  # Special US Highways
+# Auxiliary Numbered Highways
 NV US93AltWen US93_S US93_N
 NV US395BusCar US395_S US395_N
 
-# State Routes
+# State Highways
 NV NV140 OR/NV US95
 NV NV208 US395 AmeWay
 NV NV225 I-80BL NV/ID
@@ -716,19 +771,14 @@ NV NV376 US6 US50
 
 
 # New Mexico
-# Interstates
-NM I-10 AZ/NM NM/TX
-NM I-25 I-10 NM/CO
-NM I-40 AZ/NM NM/TX
-
-  # Business Interstates
+# Business Interstate Highways
 NM I-25BLSoc I-25_S I-25_N
 NM I-25BLRat I-25_S I-25_N
 NM I-40BLGal ArmOrtBlvd I-40_E
 NM I-40BLSan I-40_W I-40_E
 NM I-40BLTuc I-40_W I-40_E
 
-# US Highways
+# Numbered Highways
 NM US54 TX/NM NM/TX
 NM US56 US64/87 NM/OK
 NM US60 AZ/NM I-25(175)
@@ -751,13 +801,13 @@ NM US412 US64/87 NM/OK
 NM US491 I-40(20) NM/CO
 NM US550 I-25(242) NM/CO
 
-  # Special US Highways
+# Auxiliary Numbered Highways
 NM US54BusTuc I-40BL US54_E
 NM US64BusFar US64_W US64_E
 NM US70TrkRos US70_W US70_E
 NM US285TrkRos US70/380 US285_N
 
-# State Routes
+# State Highways
 NM NM18 US62/180 US82/83
 NM NM47 I-25 AlbLim
 NM NM53 I-40 I-40BL
@@ -774,19 +824,23 @@ NM NM556 NM333 I-40
 NM NM597 US160 FourCorMon
 NM NM599 I-25 US84/285
 
+# Historic Highways
+NM US66HisGal NM602 I-40(36)
+NM US66HisGra End I-40(117)
+NM US66HisAlb I-40(149) I-40(197)
+NM US66HisSan I-40(273) I-40(277)
+NM US66HisTuc I-40(329) NM/TX
+
 
 # Oklahoma
-# Interstates
-OK I-35 TX/OK OK/KS
-OK I-40 TX/OK OK/AR
-OK I-44 TX/OK OK/MO
+# Interstate Highways
 OK I-244 1A I-44
 
-  # Business Interstates
+# Business Interstate Highways
 OK I-40BLCli I-40_W US183
 OK I-40BLSal I-40_W I-40_E
 
-# US Highways
+# Numbered Highways
 OK US54 TX/OK OK/KS
 OK US56 NM/OK US64_E
 OK US59 US259 US64_W
@@ -841,12 +895,12 @@ OK US377 OK99A US62
 OK US377 I-44(179) End
 OK US412 NM/OK OK/AR
 
-  # Special US Highways
+# Auxiliary Numbered Highways
 OK US69AltBax US69_S OK/KS
 OK US69BusMcA US69_S US270
 OK US70BypIda CanDr US259_N
 
-# State Routes
+# State Highways
 OK OK1 US69Bus US69
 OK OK3 CO/OK US60_E
 OK OK3 I-44(123B) I-44(115)
@@ -872,17 +926,20 @@ OK OK142 I-35 OK199
 OK OK259A US259_S US259_N
 OK OK375 1 104
 
+# Historic Highways
+OK US66His I-40BL_CliW US183
+OK US66His 35thSt 17thSt
+OK US66His I-44/60 US69_ComS
+OK US66His US69_ComN US69_N
+OK US66HisWCl I-40(65) 10thSt
+
 
 # Oregon
-# Interstates
-OR I-5 CA/OR OR/WA
-OR I-82 WA/OR 11
-OR I-84 I-5 OR/ID
+# Interstate Highways
 OR I-105 OR99/126 4
-OR I-205 21B OR/WA
 OR I-405 I-5(299B) I-5(302B)
 
-# US Highways
+# Numbered Highways
 OR US20 US101 OR201_N
 OR US26 US395_N US395_S
 OR US30 US101 I-84(69)
@@ -896,7 +953,7 @@ OR US199 CA/OR I-5
 OR US395 CA/OR I-84(188)
 OR US395 I-82 OR/WA
 
-  # Special US Highways
+# Auxiliary Numbered Highways
 OR US30BusOnt I-84(374) US30_E
 OR US97BusBen US20_E US20_W
 OR US97BusKla US97_S US97_N
@@ -910,37 +967,37 @@ OR OR58 I-5 US97
 OR OR62 OR99/238 OR140
 OR OR62 CraLakeNP US97
 OR OR78 US20/395 US95
+OR OR99E MarDr I-5(307)
+OR OR120 MarDr I-5/OR99E
 OR OR126 OR99_N 5
 OR OR140 OR62 OR/NV
 OR OR201 US20/26_W I-84(374)
 OR OR213 I-5 LanDr
 OR OR569 9B GatSt
 
+# Select Inter-State Bridges
+OR LewClaBri US30 OR/WA
+
 
 # Texas
-# Interstates
+# Interstate Highways
 TX I-2 130 176
-TX I-10 NM/TX TX/LA
 TX I-14 US190BusCop I-35
-TX I-20 I-10 TX/LA
 TX I-27 1A 653B
-TX I-30 I-20 TX/AR
 TX I-35 US83/359 370B
-TX I-35Gai 467 TX/OK
 TX I-35E 370B 467
 TX I-35W I-35(370B) 85
 TX I-37 1B 142
-TX I-40 NM/TX TX/OK
-TX I-44 1 TX/OK
 TX I-45 1A 284A
-TX I-49 AR/TX US59/71
 TX I-69 TXSpr10 167
 TX I-69E 1A 56
 TX I-69ERob FM2826 I-37
 TX I-69W 1 2
+TX I-345 284A 286
 TX I-369 111A 114B
+TX I-410 27 163(35)
 
-  # Business Interstates
+# Business Interstate Highways
 TX I-10BLFor I-10_W I-10_E
 TX I-10BLVan I-10_W I-10_E
 TX I-20BLBai US283 I-20_E
@@ -948,7 +1005,7 @@ TX I-40BLAdr I-40_W I-40_E
 TX I-40BLGle OldUS66 TX/NM
 TX I-40BLSha I-40_W I-40_E
 
-# US Highways
+# Numbered Highways
 TX US54ElP 20 TX/NM
 TX US54 NM/TX TX/OK
 TX US57 US83 I-35
@@ -1036,12 +1093,13 @@ TX US385 I-10BL_W I-20
 TX US385 TXLp338_N US62/82
 TX US385 US87_S TX/OK
 
-  # Special US Highways
+# Auxiliary Numbered Highways
 TX US87BusBig US87_S US87_N
 TX US96BusBun US96 TX62
 TX US277SprDel TXSpr297 TXSpr239_N
 
-# State Routes
+# State Highways
+TX NASA1 I-45 TX146
 TX TX4 I-69E End
 TX TX7 US77_N FM357 # SH 7 in-game turns into SH 94 just west of Lufkin. However, SH 7 never touches SH 94, so FM 357 is used instead.
 TX TX7 US59_N US59_S
@@ -1080,7 +1138,7 @@ TX TX336 FM1016 I-2/83
 TX TX351 I-20 FM2833
 TX TX359 I-35 TXSpr260
 
-  # Loop Routes
+# State Highway Loops
 TX TXLp13 ZarSt I-35
 TX TXLp13 US87 I-410
 TX TXLp20 US59_N I-69W(1)
@@ -1093,28 +1151,25 @@ TX TXLp481 I-10(456) FM2169_E
 TX TXLp517 US277 US83
 TX TXLp564 US69_N US69_S
 
-  # Spur Routes
+# State Highway Spurs
 TX TXSpr24 US385 US54
 TX TXSpr239 US277Spr_N US90/277
 TX TXSpr380 WasBlvd I-10
 
-  # Other
-TX NASA1 I-45 TX146
+# Historic Highways
+TX US66HisAdr I-40(22) I-40(23)
+TX US66HisAma US60_W US87/287_N
+TX US66HisGle NM/TX OldUS66_E
+TX US66HisSha I-40(161) I-40(164)
 
 
 # Utah
-# Interstates
-UT I-15 AZ/UT UT/ID
-UT I-70 0 UT/CO
-UT I-80 NV/UT UT/WY
-UT I-84 ID/UT 120
-
-  # Business Interstates
+# Business Interstate Highways
 UT I-15BLStG 700S I-15_N
 UT I-15BLCed I-15_S I-15_N
 UT I-70BSSal I-70 US50_W
 
-# US Highways
+# Numbered Highways
 UT US6 NV/UT US50_E
 UT US6 I-15(244) UT/CO
 UT US40 1 UT/CO
@@ -1131,11 +1186,11 @@ UT US189 UT52 UT/WY
 UT US191 AZ/UT UT/WY
 UT US491 CO/UT US191
 
-  # Special US Highways
+# Auxiliary Numbered Highways
 UT US6BusPri US6_W US6_E
 UT US89AltKan AZ/UT US89
 
-# State Routes
+# State Highways
 UT UT9 I-15 UT59
 UT UT10 US6/191 UT55
 UT UT26 UT126 US89
@@ -1157,15 +1212,11 @@ UT UT265 US89 800E
 
 
 # Washington
-# Interstates
-WA I-5 OR/WA 258
-WA I-82 I-90 WA/OR
-WA I-90 WA519 WA/ID
+# Interstate Highways
 WA I-182 I-82 14
-WA I-205 OR/WA 27
 WA I-405 I-5(154) 11
 
-# US Highways
+# Numbered Highways
 WA US2 I-5 NorSpoCor
 WA US12 US101 WA8
 WA US12 I-5(88) WA/ID
@@ -1173,10 +1224,10 @@ WA US97 OR/WA WA20_E
 WA US101 OR/WA I-5
 WA US395 OR/WA WA20_W
 
-  # Special US Highways
+# Auxiliary Numbered Highways
 WA US97BusOka US97_S US97_N
 
-# State Routes
+# State Highways
 WA WA8 US12 US101
 WA WA14 I-5 10
 WA WA20Por US101 PorCouFry
@@ -1191,15 +1242,15 @@ WA WA526 40thAve WA99/527
 WA WA529 I-5(193) WA528
 WA WA900 I-405(4B) HarAve
 
+# Select Inter-State Bridges
+WA LewClaBri OR/WA WA432
+
 
 # Wyoming
-# Interstates
-WY I-25 CO/WY 300
-WY I-80 UT/WY WY/NE
-WY I-90 MT/WY WY/SD
+# Interstate Highways
 WY I-180 I-80 I-80BL/30
 
-  # Business Interstates
+# Business Interstate Highways
 WY I-25BLChe I-25_S I-80BL/30
 WY I-25BLDou WY59/94 I-25_N
 WY I-25BLCas I-25_S I-25_N
@@ -1212,7 +1263,7 @@ WY I-90BLShe I-90_W I-90_E
 WY I-90BLGil I-90_W I-90_E
 WY I-90BLMoo US14_E I-90_E
 
-# US Highways
+# Numbered Highways
 WY US14 YelNP EastRidRd
 WY US14 WY59_N I-90(153)
 WY US14 I-90BL/16_E CR257
@@ -1248,7 +1299,7 @@ WY US287 US30_E WY487
 WY US287 I-80(235) YelNP
 WY US310 US14/16 WY/MT
 
-  # Special US Highways
+# Auxiliary Numbered Highways
 WY US14AltPow US310/789_N US310/789_S
 WY US14BusShe US14_W US14_E
 WY US20BusCas US20_W US20_E
@@ -1261,7 +1312,7 @@ WY US87BusShe US87_S US87_N
 WY US189BusEva US189_S US189_N
 WY US287BypRaw US287_S US287_N
 
-# State Routes
+# State Highways
 WY WY22 SprGulRd US26/89
 WY WY28 WY372 US287
 WY WY50 I-90 US14/16
@@ -1285,61 +1336,3 @@ WY WY374 I-80(68) TenRd
 WY WY450 ThuBasCoalMine WY59
 WY WY487 US30/287 WY220
 WY WY789 CO/WY WY/MT
-
-
-
-# Other
-# Arizona
-AZ US66HisKin ToUS93 I-40BL_SelW
-AZ US66HisFla AZ89A US180_E
-AZ US66HisHol 8thAve AirRd
-AZ PetForRd PinRd I-40
-
-# California
-CA US66HisBar HinRd I-40(2)
-CA US66HisBar I-40(50) I-40(107) # Exit 115's literally the next exit...
-
-# Kansas
-KS US66His OK/KS US69Alt_N
-KS US66His US69Alt/400 KS26/66
-
-# Missouri
-MO US66His MO66_W I-44BL/43
-MO US66His I-44BL_N MO125_N
-MO US66His I-44(172) I-44(176)
-MO US66His I-44BLRol_W MO72
-MO US66His US63_S US63_N
-MO US66His I-44(261) I-44(277A)
-MO US66HisEJo US66His_W I-44/49BL
-MO US66HisNSp US160_W US66His_E
-
-# Nebraska
-NE LinHwyLin US83 NewAcc
-NE OldOreTrl NE92 FiveRocRd
-NE SumRd OldOreTrl End
-
-# New Mexico
-NM US66HisGal NM602 I-40(36)
-NM US66HisGra End I-40(117)
-NM US66HisAlb I-40(149) I-40(197)
-NM US66HisSan I-40(273) I-40(277)
-NM US66HisTuc I-40(329) NM/TX
-
-# Oklahoma
-OK US66His I-40BL_CliW US183
-OK US66His 35thSt 17thSt
-OK US66His I-44/60 US69_ComS
-OK US66His US69_ComN US69_N
-OK US66HisWCl I-40(65) 10thSt
-
-# Oregon
-OR LewClaBri US30 OR/WA
-
-# Texas
-TX US66HisAdr I-40(22) I-40(23)
-TX US66HisAma US60_W US87/287_N
-TX US66HisGle NM/TX OldUS66_E
-TX US66HisSha I-40(161) I-40(164)
-
-# Washington
-WA LewClaBri OR/WA WA432
